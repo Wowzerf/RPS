@@ -10,3 +10,6 @@ function getComputerChoice() {
     }
     
 }
+function getHumanChoice() {
+    
+}
