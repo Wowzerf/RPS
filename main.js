@@ -16,13 +16,13 @@ function getComputerChoice() {
 }
 
 function getHumanChoice() {
-    let getChoice = prompt("Rock, Paper, or Scissors?");
+    let humanSelection = prompt("Rock, Paper, or Scissors?");
 
-    if (getChoice === "rock") {
+    if (humanSelection === "rock") {
         return console.log("You chose Rock!");
-    } else if (getChoice === "paper") {
+    } else if (humanSelection === "paper") {
         return console.log("You chose Paper!");
-    } else if (getChoice === "scissors") {
+    } else if (humanSelection === "scissors") {
         return console.log("You chose Scissors!");
     }
 
