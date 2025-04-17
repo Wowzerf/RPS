@@ -28,8 +28,6 @@ function getHumanChoice() {
 
 }
 
-getHumanChoice();
-
 function playRound (humanChoice, computerChoice) {
     if(humanChoice === "rock" && computerChoice === "scissors") {
         console.log(`You win! ${humanChoice} beats ${computerChoice}. `);
