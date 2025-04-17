@@ -19,11 +19,11 @@ function getHumanChoice() {
     let askChoice = prompt("Rock, Paper, or Scissors?");
 
     if (askChoice === "rock") {
-        return console.log("You chose Rock!");
+        return console.log(`You chose ${askChoice}! `);
     } else if (askChoice === "paper") {
-        return console.log("You chose Paper!");
+        return console.log(`You chose ${askChoice}! `);
     } else if (askChoice === "scissors") {
-        return console.log("You chose Scissors!");
+        return console.log(`You chose ${askChoice}!`);
     }
 
 }
