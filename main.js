@@ -3,11 +3,11 @@ let computerScore = 0;
 
 
 function getComputerChoice() {
-    let computerSelection = Math.floor(Math.random() * 3) + 1;
+    let askChoice = Math.floor(Math.random() * 3) + 1;
 
-    if(computerSelection === 1) {
+    if(askChoice === 1) {
         return console.log("rock");
-    } else if (computerSelection === 2) {
+    } else if (askChoice === 2) {
         return console.log("paper");
     } else {
         return console.log("scissors")
