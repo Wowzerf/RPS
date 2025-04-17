@@ -53,3 +53,6 @@ function playRound (humanChoice, computerChoice) {
         return console.log("Its a draw!");
     }
 }
+
+const humanSelection = getHumanChoice();
+const computerSelection = getComputerChoice();
